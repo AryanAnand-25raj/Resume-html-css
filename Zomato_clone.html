@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zomato Clone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    header {
+      background-color: #e23744;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem;
+      background-color: #fff;
+    }
+
+    .hero input {
+      padding: 0.5rem;
+      width: 60%;
+      margin-top: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .restaurants {
+      padding: 2rem;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #e23744;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Zomato</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Restaurants</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Discover the best food & drinks in your city</h1>
+    <input type="text" placeholder="Search for restaurants, cuisines..." />
+  </section>
+
+  <section class="restaurants">
+    <h2>Popular Restaurants</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Restaurant" />
+        <h3>Pizza Palace</h3>
+        <p>Italian, Fast Food</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Restaurant" />
+        <h3>Spice Hub</h3>
+        <p>Indian, Curry</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Zomato Clone by Aryan</p>
+  </footer>
+
+  <script>
+    console.log("Zomato Clone Loaded");
+  </script>
+</body>
+</html>
