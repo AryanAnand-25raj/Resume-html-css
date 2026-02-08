@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Anand - Professional Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Aryan Anand</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#education" onclick="closeMenu()">Education</a></li>
+                <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Aryan Anand</h1>
+            <p class="subtitle">Web Developer & Software Engineer</p>
+            <p class="tagline">Passionate about creating elegant digital experiences through innovative code 👨‍💻📱💻🌐</p>
+            <a href="#about" class="cta-button">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="about" class="profile-section">
+        <div class="profile-container reveal">
+            <div class="profile-image-wrapper">
+                <img src="https://avatars.githubusercontent.com/u/229626076?v=4" alt="Aryan Anand" class="profile-image">
+            </div>
+            <div class="profile-content">
+                <h2>About Me</h2>
+                <p>I am a <span class="highlight">first-year B.Tech Computer Science and Engineering student</span> (2025–2029) with a strong foundation in programming and web development.</p>
+                <p>Skilled in <span class="highlight">Python, C++, Java, HTML, CSS, JavaScript, PHP, and MySQL</span>, I have already completed certifications in Advanced Python (Machine Learning, Scikit-Learn, Model Deployment with Flask) and Web Development.</p>
+                <p>Although I am at the beginning of my professional journey, I am actively building skills in <span class="highlight">Data Structures, Algorithms, and Software Development</span>, aligning myself with the Information Technology and Software industry.</p>
+                <p>I am eager to gain hands-on experience through projects, internships, and collaborations while exploring fields like <span class="highlight">Machine Learning and Full-Stack Development</span>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="education-container">
+            <h2 class="section-title reveal">Education Qualification</h2>
+            <table class="education-table reveal">
+                <thead>
+                    <tr>
+                        <th>Course Pursuing</th>
+                        <th>Institute Name</th>
+                        <th>Year of Study</th>
+                        <th>Performance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Course Pursuing"><strong>B.Tech CSE</strong></td>
+                        <td data-label="Institute Name">Galgotias College of Engineering & Technology</td>
+                        <td data-label="Year of Study">2025-2029</td>
+                        <td data-label="Performance"><strong>Yet to be Declared</strong></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Course Pursuing"><strong>12th Grade</strong></td>
+                        <td data-label="Institute Name">JkBose State Board of School Education</td>
+                        <td data-label="Year of Study">2023-2024</td>
+                        <td data-label="Performance"><strong>86%</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="skills-container">
+            <h2 class="section-title reveal">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <h3>Programming Languages</h3>
+                    <p><strong>Core Technologies:</strong> HTML, CSS, JavaScript, Python, C++, Java</p>
+                    <ul>
+                        <li>HTML - Semantic markup and accessibility</li>
+                        <li>CSS - Responsive design and animations</li>
+                        <li>JavaScript - Interactive web applications</li>
+                        <li>Python - Machine learning and automation</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category reveal">
+                    <h3>Frameworks & Libraries I'm Learning</h3>
+                    <p><strong>Modern Stack:</strong> React, Node.js, Express, Flask</p>
+                    <ul>
+                        <li>React - Component-based UI development</li>
+                        <li>Node.js - Server-side JavaScript runtime</li>
+                        <li>Express - RESTful API development</li>
+                        <li>Flask - Python web framework</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category reveal">
+                    <h3>Tools & Technologies</h3>
+                    <p><strong>Development Tools:</strong> Git, GitHub, VS Code, MySQL</p>
+                    <ul>
+                        <li>Git - Version control and collaboration</li>
+                        <li>GitHub - Code repository management</li>
+                        <li>Visual Studio Code - Primary IDE</li>
+                        <li>MySQL - Database design and queries</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="projects-container">
+            <h2 class="section-title reveal">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <h3>Zomato Clone</h3>
+                    <p>A full-featured food delivery platform clone built with modern web technologies. Includes restaurant listings, search functionality, and responsive design.</p>
+                    <a href="Zomato_clone.html" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card reveal">
+                    <h3>EV Cars Repository</h3>
+                    <p>Curated collection of top-selling electric vehicles in 2025, showcasing the future of sustainable transportation in India.</p>
+                    <a href="https://aryananand-25raj.github.io/Top-EV-Car-Repository-/" target="_blank" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card reveal">
+                    <h3>Laundry Wallah</h3>
+                    <p>Professional laundry service platform delivering exceptional care using latest technology and eco-friendly products for garment treatment.</p>
+                    <a href="https://aryananand-25raj.github.io/Laundry-Wallah/" target="_blank" class="project-link">View Project →</a>
+                </div>
+
+                <div class="project-card reveal">
+                    <h3>Web Development Portfolio</h3>
+                    <p>Collection of responsive websites and applications demonstrating proficiency in HTML, CSS, JavaScript, and modern frameworks.</p>
+                    <a href="https://github.com/AryanAnand-25raj" target="_blank" class="project-link">View GitHub →</a>
+                </div>
+
+                <div class="project-card reveal">
+                    <h3>Bella-Vista Portfolio</h3>
+                    <p>Personal portfolio website showcasing my skills, projects, and professional journey in web development and design.</p>
+                    <a href="https://aryananand-25raj.github.io/Bella-Vista-Portfolio/" target="_blank" class="project-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Summary Section -->
+    <section class="about-section">
+        <div class="about-container">
+            <h2 class="section-title reveal">Professional Summary</h2>
+            <div class="about-content reveal">
+                <p><strong>Achievements & Certifications:</strong> Successfully completed two industry-recognized certifications with Grade A performance - Advanced Python (Machine Learning, Scikit-Learn, Model Deployment with Flask) and Web Development. Developed discipline through consistent fitness training while maintaining a growth mindset focused on continuous learning.</p>
+                
+                <p style="margin-top: 30px;"><strong>Technical Proficiency:</strong> Core Java • C++ • Python Programming • Web Development • HTML CSS JavaScript • PHP • MySQL • Data Structures & Algorithms • Machine Learning • Full-Stack Development</p>
+                
+                <p style="margin-top: 30px;"><strong>Career Goals:</strong> Eager to gain hands-on experience through projects, internships, and collaborations. Starting my cloud journey for making a career in IT. Actively exploring opportunities in Machine Learning, Full-Stack Development, and Software Engineering to build innovative solutions that make a real-world impact.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2 class="section-title reveal">Let's Connect</h2>
+            <p class="contact-intro reveal">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out through any of these channels.</p>
+            
+            <div class="contact-buttons reveal">
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/aryan-anand-1837082a0/" target="_blank" class="contact-button linkedin">
+                    <div class="icon">💼</div>
+                    <div class="label">
+                        <span>Professional Network</span>
+                        <span>Aryan Anand</span>
+                    </div>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:Anandaryan406@gmail.com" class="contact-button email">
+                    <div class="icon">📧</div>
+                    <div class="label">
+                        <span>Send Email</span>
+                        <span>Anandaryan406@gmail.com</span>
+                    </div>
+                </a>
+
+                <!-- Phone -->
+                <a href="tel:9906686163" class="contact-button phone">
+                    <div class="icon">📱</div>
+                    <div class="label">
+                        <span>Call or WhatsApp</span>
+                        <span>+91 9906686163</span>
+                    </div>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/Anand_Aryan25" target="_blank" class="contact-button instagram">
+                    <div class="icon">📸</div>
+                    <div class="label">
+                        <span>Follow on Instagram</span>
+                        <span>@Anand_Aryan25</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Aryan Anand</h3>
+                    <p>A passionate Computer Science student specializing in Web Development and Machine Learning. Committed to creating innovative solutions and building meaningful digital experiences.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/AryanAnand-25raj" target="_blank" class="social-icon" title="GitHub">🔗</a>
+                        <a href="https://www.linkedin.com/in/aryan-anand-1837082a0/" target="_blank" class="social-icon" title="LinkedIn">💼</a>
+                        <a href="https://www.instagram.com/Anand_Aryan25" target="_blank" class="social-icon" title="Instagram">📸</a>
+                        <a href="mailto:Anandaryan406@gmail.com" class="social-icon" title="Email">📧</a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Projects</h4>
+                    <ul>
+                        <li><a href="#projects">All Projects</a></li>
+                        <li><a href="Zomato_clone.html">Zomato Clone</a></li>
+                        <li><a href="Top_car.html">Top Cars India</a></li>
+                        <li><a href="https://aryananand-25raj.github.io/Laundry-Wallah/" target="_blank">Laundry Wallah</a></li>
+                        <li><a href="https://github.com/AryanAnand-25raj" target="_blank">GitHub Profile</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:Anandaryan406@gmail.com">Email Me</a></li>
+                        <li><a href="mailto:Aryan.25GCEBCS021@gmail.com">Academic Email</a></li>
+                        <li><a href="tel:9906686163">Call: +91 9906686163</a></li>
+                        <li><a href="#contact">Contact Form</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aryan Anand. All Rights Reserved.</p>
+                <p>Designed with passion and precision • Built with HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        function closeMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.remove('active');
+        }
+
+        // Scroll reveal animation
+        function reveal() {
+            const reveals = document.querySelectorAll('.reveal');
+            reveals.forEach(element => {
+                const windowHeight = window.innerHeight;
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < windowHeight - elementVisible) {
+                    element.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', reveal);
+        reveal(); // Check on load
+    </script>
+</body>
+</html>
